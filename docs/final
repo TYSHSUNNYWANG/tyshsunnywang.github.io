@@ -1,0 +1,111 @@
+<html>
+<head>
+<style>
+        .bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -999;
+        }
+        .bg img {
+            min-height: 100%;
+            width: 100%;
+        }
+
+
+
+div.left_side {
+height: 100%;
+overflow: auto;
+width: 15%;
+float: left;
+background: salmon;
+}
+
+div.main {
+	height: 93vh;
+	overflow: auto;
+	float: left;
+	background: gray;
+	width: 80%;
+	display: flex;
+    flex-direction: row;
+    flex-wrap:wrap; 
+}
+
+div.item {
+	float: right;
+	width: 800px;
+	margin: 10%;
+	border: 20px solid gray;
+	background:  rgb(150,50,100);
+	border-radius: 20px;
+	text-align: center;
+	height: 200px;
+}
+div.item:hover 
+{
+	box-shadow: 0px 0px 5px indianred;
+}
+
+body {
+margin: 0px;
+}
+#footer {
+	position: fixed;
+	background: palevioletred;
+    bottom: 0px;
+	width: 100%;
+	padding: 10px;
+	margin: 0px;
+	flex: 0 0 60px;
+}
+
+#footer p {
+	color: orange;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="left_side">
+	<p id ="top">ＭＥＮＵ<br>
+		--------------------------------
+		
+		<p><a href="./final1.html";class="mid">How i grom up?</a></p>
+		<br><br><br><br><br><br>
+		<p>&nbsp;<a href="./final2.html";class="mid">Biggest changes in my life.</p>
+		<br><br><br><br><br><br>
+	</p>
+</div>
+
+  
+
+	<div class="item">
+		<p id= "MOVEMENT";>How i grom up?<br><br><br><br>I am the only child in my family,even though my parents they got <br>divorced.They still 
+		make every effort to satisfy <br>my needs.
+			<br><br><a href="./final.html";class="mid">TOP</a>
+		</p>	
+	</div>
+	<div class="item">
+		<p id = "HEALING">HEALING<br><br><br><br>Every character in APEX have <b>health point and shield</b>. If you get hurt, you need to heal.<br>Use <b>battery</b> to recovery your shield.<br>Use <b>med-kit</b> to recovery your health point.
+
+
+<br><br><a href="./final.html";class="mid">TOP</a>
+</p>	
+	
+    
+	<div class="bg">
+        <img 
+		background="https://www.goldppt.com/uploads/thumbnails/english-resume-self-introduction-ppt-templates.jpg"
+		>
+    </div>
+
+</div>
+<div id="footer">
+  <p> Jeremy</p>
+</div>
+</body>
+</html>
